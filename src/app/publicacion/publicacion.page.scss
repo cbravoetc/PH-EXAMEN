@@ -1,0 +1,46 @@
+.image-preview {
+    margin: 16px;
+    border: 1px solid #ccc;
+    position: relative;
+    width: 100px; 
+    height: 100px; 
+  
+    ion-img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  ion-button {
+    --padding-start: 0;
+    --padding-end: 0;
+  }
+  
+  .form-button {
+    margin-top: 20px;
+  }
+  
+  .foto-contenedor {
+    display: flex; 
+    align-items: center; 
+    background-color: #f2f2f2; 
+    padding: 8px 16px; 
+    margin-left: 16px;
+  }
+  
+  ion-icon {
+    margin-right: 8px; // Espacio entre el ícono y el texto
+    margin-left: 0px; // Ajustar hacia la izquierda si es necesario
+  }
+  
+
+  ion-item {
+    --inner-padding-start: 8px; /* Aumenta el relleno interno al inicio del ion-item */
+    --inner-padding-end: -8px; /* Aumenta el relleno interno al final del ion-item */
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.8em;
+    margin: 5px 0;
+  }

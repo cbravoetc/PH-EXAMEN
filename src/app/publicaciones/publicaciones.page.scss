@@ -1,0 +1,37 @@
+.titulo {
+    font-weight: bold; 
+    font-size: 1.2em; 
+    display: inline; 
+  }
+  
+  .fecha {
+    display: inline; 
+    padding-left: 8px; 
+  }
+  
+  ion-label {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+  }
+  
+  ion-item {
+    --padding-start: 0; 
+    --inner-padding-end: 0; 
+  }
+  
+  ion-list {
+    margin: 0 16px; 
+  }
+
+  ion-item {
+    --inner-padding-start: 16px; 
+    --inner-padding-end: 16px; 
+    margin-bottom: 8px; 
+    border-radius: 8px; 
+    --background: var(--ion-item-background, #fff); 
+  }
+
+  .icono-basura {
+    color: red; 
+  }

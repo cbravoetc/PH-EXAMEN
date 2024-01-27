@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ mensaje.titulo }}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="dismiss()">Cerrar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{ mensaje.titulo }}</ion-card-title>
+      <ion-card-subtitle>{{ mensaje.fecha }}</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <img [src]="mensaje.image" />
+      <p>{{ mensaje.descripcion }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
